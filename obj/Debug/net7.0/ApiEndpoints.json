@@ -1,0 +1,564 @@
+[
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.AllergyController",
+    "Method": "GetAll",
+    "RelativePath": "api/Allergy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.AllergyController",
+    "Method": "Create",
+    "RelativePath": "api/Allergy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "allergyDto",
+        "Type": "MyVaccine.WebApi.Dtos.Allergy.AllergyRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.AllergyController",
+    "Method": "Delete",
+    "RelativePath": "api/Allergy/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.AllergyController",
+    "Method": "Update",
+    "RelativePath": "api/Allergy/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "allergyDto",
+        "Type": "MyVaccine.WebApi.Dtos.Allergy.AllergyRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.AllergyController",
+    "Method": "GetById",
+    "RelativePath": "api/Allergy/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "MyVaccine.WebApi.Dtos.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Auth/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "MyVaccine.WebApi.Dtos.RegisterRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.AuthController",
+    "Method": "GetUserInfo",
+    "RelativePath": "api/Auth/user-info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.DependentsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Dependents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.DependentsController",
+    "Method": "Create",
+    "RelativePath": "api/Dependents",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dependentsDto",
+        "Type": "MyVaccine.WebApi.Dtos.Dependent.DependentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.DependentsController",
+    "Method": "GetById",
+    "RelativePath": "api/Dependents/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.DependentsController",
+    "Method": "Update",
+    "RelativePath": "api/Dependents/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dependentsDto",
+        "Type": "MyVaccine.WebApi.Dtos.Dependent.DependentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.DependentsController",
+    "Method": "Delete",
+    "RelativePath": "api/Dependents/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.DependentsController",
+    "Method": "GetDependensByUserId",
+    "RelativePath": "api/Dependents/get-dependents-by-userid/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.FamilyGroupController",
+    "Method": "GetAll",
+    "RelativePath": "api/FamilyGroup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.FamilyGroupController",
+    "Method": "Create",
+    "RelativePath": "api/FamilyGroup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "familyDto",
+        "Type": "MyVaccine.WebApi.Dtos.FamilyGroup.FamilyGroupRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.FamilyGroupController",
+    "Method": "GetById",
+    "RelativePath": "api/FamilyGroup/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.FamilyGroupController",
+    "Method": "Delete",
+    "RelativePath": "api/FamilyGroup/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.FamilyGroupController",
+    "Method": "Update",
+    "RelativePath": "api/FamilyGroup/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "familyDto",
+        "Type": "MyVaccine.WebApi.Dtos.FamilyGroup.FamilyGroupRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineController",
+    "Method": "GetAll",
+    "RelativePath": "api/Vaccine",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineController",
+    "Method": "Create",
+    "RelativePath": "api/Vaccine",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaccinDto",
+        "Type": "MyVaccine.WebApi.Dtos.Vaccine.VaccineRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineController",
+    "Method": "GetById",
+    "RelativePath": "api/Vaccine/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineController",
+    "Method": "Delete",
+    "RelativePath": "api/Vaccine/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineController",
+    "Method": "Update",
+    "RelativePath": "api/Vaccine/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vaccineDto",
+        "Type": "MyVaccine.WebApi.Dtos.Vaccine.VaccineRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineCategoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/VaccineCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineCategoryController",
+    "Method": "Create",
+    "RelativePath": "api/VaccineCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaccinCategoryDto",
+        "Type": "MyVaccine.WebApi.Dtos.NewFolder.VaccineCategoryRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineCategoryController",
+    "Method": "GetById",
+    "RelativePath": "api/VaccineCategory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineCategoryController",
+    "Method": "Delete",
+    "RelativePath": "api/VaccineCategory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineCategoryController",
+    "Method": "Update",
+    "RelativePath": "api/VaccineCategory/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vaccineCategoryRequestDto",
+        "Type": "MyVaccine.WebApi.Dtos.NewFolder.VaccineCategoryRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineRecordController",
+    "Method": "GetAll",
+    "RelativePath": "api/VaccineRecord",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineRecordController",
+    "Method": "Create",
+    "RelativePath": "api/VaccineRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaccinRecordDto",
+        "Type": "MyVaccine.WebApi.Dtos.VaccineRecord.VaccineRecordRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineRecordController",
+    "Method": "GetById",
+    "RelativePath": "api/VaccineRecord/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineRecordController",
+    "Method": "Delete",
+    "RelativePath": "api/VaccineRecord/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.VaccineRecordController",
+    "Method": "Update",
+    "RelativePath": "api/VaccineRecord/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vaccinRecordDto",
+        "Type": "MyVaccine.WebApi.Dtos.VaccineRecord.VaccineRecordRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyVaccine.WebApi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MyVaccine.WebApi.WeatherForecast, MyVaccine.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
